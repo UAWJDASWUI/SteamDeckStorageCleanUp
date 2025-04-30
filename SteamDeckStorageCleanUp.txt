@@ -1,0 +1,29 @@
+
+# General cleanup
+rm -rf /home/deck/.dvdcss
+rm -rf ~/.local/share/Trash/
+rm -r /home/deck/.bash_history
+
+# Steam cleanup
+rm -rf /home/deck/.local/share/Steam/userdata/-UID-/760/remote
+rm -rf /home/deck/.local/share/Steam/userdata/-UID-/gamerecordings
+rm -rf /home/deck/.steam/steam/depotcache
+rm -rf /home/deck/.steam/steam/steamapps/downloading
+rm -rf /home/deck/.steam/steam/steamapps/shadercache
+
+# Sudo cleanup (optional)
+sudo steamos-readonly disable
+sudo chattr -i /var/cache
+sudo rm -rf /home/deck/.cache
+sudo rm -rf /home/lost+found
+sudo rm -rf /var/cache
+
+# Swap cleanup (optional)
+sudo swapoff --all
+sudo rm -r /home/swapfile
+
+# System bloatware cleanup (optional)
+sudo pacman -R btop
+sudo pacman -R cups-pdf
+sudo pacman -R cups
+sudo pacman -R kdeconnect
