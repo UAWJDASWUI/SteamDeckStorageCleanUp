@@ -14,5 +14,5 @@ Open Konsole
 Paste the contents of your personalized SteamDeckStorageCleanUp.txt to Konsole
 Press enter to run the script
 
-# Check for updates
+# Check for updates
 You can fetch [this](https://raw.githubusercontent.com/UAWJDASWUI/SteamDeckStorageCleanUp/refs/heads/main/.version) to check for an update and ten repeat the set up
