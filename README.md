@@ -2,7 +2,7 @@
 Is your Steam Deck's storage full but you don't know why? This text file of bash commands will help.
 
 # Set up the script
-- Download [SteamDeckStorageCleanUp.txt](https://github.com/a5b4e73c-95e4-4e97-b16b-f4598c37b9fd)
+- Download [SteamDeckStorageCleanUp.txt](https://github.com/UAWJDASWUI/SteamDeckStorageCleanUp/blob/main/SteamDeckStorageCleanUp.txt)
 - Open Dolphin File Manager, go to Downloads and double click to open it in KWrite
 - Click Edit > Replace
 - Replace "-UID-" with your Steam user ID
