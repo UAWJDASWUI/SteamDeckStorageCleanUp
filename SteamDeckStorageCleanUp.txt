@@ -1,7 +1,6 @@
 
 # General cleanup
 rm -rf /home/deck/.dvdcss
-rm -rf ~/.local/share/Trash/
 rm -r /home/deck/.bash_history
 
 # Steam cleanup
