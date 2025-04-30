@@ -16,3 +16,6 @@ Is your Steam Deck's storage full but you don't know why? This text file of bash
 
 # Check for updates
 - You can fetch [this](https://raw.githubusercontent.com/UAWJDASWUI/SteamDeckStorageCleanUp/refs/heads/main/.version) to check for an update and then repeat the setup
+
+# Contributing
+You can fork this script to add your own commands that remove temporary or useless files.
