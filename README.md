@@ -11,7 +11,7 @@ Is your Steam Deck's storage full but you don't know why? This text file of bash
 # Run the script
 - Open Konsole
 - (Optional) Set a sudo password by running passwd
-- Paste the contents of your personalized SteamDeckStorageCleanUp.txt to Konsole by right-clicking Konsole and selecting "Paste"
+- Paste your personalized SteamDeckStorageCleanUp.txt to Konsole by right-clicking (L2) and selecting Paste
 - Press enter (A button) to run the script
 
 # Check for updates
