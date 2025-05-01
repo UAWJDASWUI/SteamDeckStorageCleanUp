@@ -1,9 +1,13 @@
 
 # General cleanup
+flatpak uninstall --unused
 rm -rf /home/deck/.dvdcss
 rm -r /home/deck/.bash_history
 
 # Steam cleanup
+rm -rf /home/deck/.local/share/Steam/appcache/librarycache/
+rm -rf /home/deck/.local/share/Steam/logs
+rm -rf /home/deck/.local/share/Steam/userdata/-UID-/config/
 rm -rf /home/deck/.local/share/Steam/userdata/-UID-/760/remote
 rm -rf /home/deck/.local/share/Steam/userdata/-UID-/gamerecordings
 rm -rf /home/deck/.steam/steam/depotcache
@@ -16,6 +20,7 @@ sudo chattr -i /var/cache
 sudo rm -rf /home/deck/.cache
 sudo rm -rf /home/lost+found
 sudo rm -rf /var/cache
+sudo rm -rf /var/log
 
 # Swap cleanup (optional)
 sudo swapoff --all
@@ -26,3 +31,4 @@ sudo pacman -R btop
 sudo pacman -R cups-pdf
 sudo pacman -R cups
 sudo pacman -R kdeconnect
+sudo pacman -R okular
