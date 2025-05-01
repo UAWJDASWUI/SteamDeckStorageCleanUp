@@ -7,7 +7,6 @@ rm -r /home/deck/.bash_history
 # Steam cleanup
 rm -rf /home/deck/.local/share/Steam/appcache/librarycache/
 rm -rf /home/deck/.local/share/Steam/logs
-rm -rf /home/deck/.local/share/Steam/userdata/-UID-/config/
 rm -rf /home/deck/.local/share/Steam/userdata/-UID-/760/remote
 rm -rf /home/deck/.local/share/Steam/userdata/-UID-/gamerecordings
 rm -rf /home/deck/.steam/steam/depotcache
