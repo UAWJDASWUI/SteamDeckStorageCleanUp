@@ -13,6 +13,14 @@ rm -rf /home/deck/.steam/steam/depotcache
 rm -rf /home/deck/.steam/steam/steamapps/downloading
 rm -rf /home/deck/.steam/steam/steamapps/shadercache
 
+# Reset Audio Settings (it fixes a microphone bug)
+rm -rf ~/.config/pipewire
+rm -rf ~/.config/wireplumber
+rm -rf ~/.local/state/wireplumber
+rm -rf ~/.config/pulse
+systemctl --user daemon-reexec
+systemctl --user restart pipewire pipewire-pulse wireplumber
+
 # Sudo cleanup (optional)
 sudo steamos-readonly disable
 sudo chattr -i /var/cache
@@ -31,3 +39,5 @@ sudo pacman -R cups-pdf
 sudo pacman -R cups
 sudo pacman -R kdeconnect
 sudo pacman -R okular
+sudo pacman -R plasma-meta
+sudo pacman -R plasma-welcome
