@@ -1,7 +1,7 @@
 # SteamDeckStorageCleanUp
-Is your Steam Deck's storage full but you don't know why? This text file of bash commands will help by deleting temporary and useless files and game clips.
+Is your Steam Deck's storage full but you don't know why? This text file of bash commands will help by deleting temporary and useless files inxluding game clips.
 
-# Set up the script
+# Set up the script to delete Game Recordings (optional)
 - Download [SteamDeckStorageCleanUp.txt](https://github.com/UAWJDASWUI/SteamDeckStorageCleanUp/blob/main/SteamDeckStorageCleanUp.txt)
 - Open Dolphin File Manager, go to Downloads and double click to open it in KWrite
 - Click Edit > Replace
