@@ -1,4 +1,4 @@
-# Steam Deck Storage CleanUp
+# Steam Deck Storage Cleanup
 Is your Steam Deck's storage full but you don't know why? This text file of bash commands will help by deleting temporary & useless files.
 
 # Set up the deletion of Game Recordings (optional)
